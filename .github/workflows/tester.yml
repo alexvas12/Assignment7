@@ -11,3 +11,7 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+
+      - name: Run a single script to show the possible success of its functionality
+        run: echo Hello World!  It is most likely functioning correctly.
+        
